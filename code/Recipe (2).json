@@ -1,0 +1,99 @@
+[
+	{  
+		"UserName":"",
+		"TagLine":"",
+		"Cfg":
+			{
+				"OutputASPSD":"True",
+				"OutputASJpeg":"True",
+				"Quality":"2",
+				"SocialType":"Normal",
+				
+				"CoverFile":"Cover.psd",
+				"TipsFile":"Tips.psd",
+				"RecipeFile":"Recipe.psd",
+				"ShoppingFile":"ShoppingList.psd",				
+				"InstagramFile":"InstagramTemplate.psd",
+				"PinterestFile":"Pinterest.psd",
+				"PTMealsFile":"PTComplete.psd",
+				"PTPassportFile":"PTPassport.psd",
+				"PSDInput":"",
+				"RecipeCardsOutput":"",
+				"SocialCardsOutput":""
+			},		
+		"Recipes":[  
+		   {  
+			  "Steps":[  
+				 "Preheat oven to 375 degrees. In a medium cast-iron skillet, heat oil and saute mushrooms, celery, onions, and garlic for 6 - 8 minutes or until tender.Remove from heat and keep aside.",
+				 "In a medium mixing bowl, combine beef mixture, 1/2 of the mozzarella cheese, egg & seasonings and mix until well combined. In another bowl, combine tomato sauce and diced tomatoes.",
+				 "Carefully stuff each pepper and arrange in a casserole dish. Top with sauce mixture.",
+				 "Cover the casserole dish and bake for 40 minutes. Uncover and sprinkle the surface of the peppers with the remaining mozzarella cheese, and bake for another 10 minutes, or until the cheese has melted."
+			  ],
+			  "Image":"https://recipesavant.blob.core.windows.net/mealplanimages/shutterstock_269101838.jpg",
+			  "PhotoshopPSD":null,
+			  "Description":"In this Italian-inspired stuffed bell pepper recipe, ground beef, mushrooms, tomato sauce, Mozzarella, and Italian seasoning make a quick, yet scrumptious filling for the low carb stuffed peppers.Serve as a dinner along with a salad.",
+			  "MealType":"Meal 1 - Main Dish",
+			  "MealName":"Low Carbed Stuffed Peppers",
+			  "Ingredients":[  
+				 "2 1/2 Tablespoons Extra Virgin Olive Oil",
+				 "2/3 Cup Mushrooms (Diced)",
+				 "2/3 Cup Celery (Diced)",
+				 "2/3 Cup White Onions (Diced)",
+				 "2 Cloves Garlic (Minced)",
+				 "1 1/3 Pounds Lean Ground Beef",
+				 "2/3 Cup Shredded Mozzarella Cheese",
+				 "1 Large Egg (Beaten)",
+				 "1 1/2 Teaspoon Italian Seasoning",
+				 "1/3 Teaspoon Garlic Powder",
+				 "1/4 Teaspoon Salt",
+				 "1/ 4 Teaspoon Ground Black Pepper",
+				 "1 Large Tomato (Diced)",
+				 "1/2 Cup Tomato Sauce",
+				 "4 Bell Peppers (Seeded & Cored)"
+			  ],
+			  "Garnish":[  
+				 "1 Tablespoon Fresh Dill (Minced)"
+			  ],
+			  "Tip":null,
+			  "RecipeID":"RecipeXXX"
+		   },
+		   {  
+			  "Steps":[  
+				 "Preheat oven to 375 degrees. In a medium cast-iron skillet, heat oil and saute mushrooms, celery, onions, and garlic for 6 - 8 minutes or until tender.Remove from heat and keep aside.",
+				 "In a medium mixing bowl, combine beef mixture, 1/2 of the mozzarella cheese, egg & seasonings and mix until well combined. In another bowl, combine tomato sauce and diced tomatoes.",
+				 "Carefully stuff each pepper and arrange in a casserole dish. Top with sauce mixture.",
+				 "Cover the casserole dish and bake for 40 minutes. Uncover and sprinkle the surface of the peppers with the remaining mozzarella cheese, and bake for another 10 minutes, or until the cheese has melted.",
+				 "Steps5.",
+				 "Steps6 Steps6.",
+			  ],
+			  "Image":"https://recipesavant.blob.core.windows.net/mealplanimages/shutterstock_494175898.jpg",
+			  "PhotoshopPSD":null,
+			  "Description":"In this Italian-inspired stuffed bell pepper recipe, ground beef, mushrooms, tomato sauce, Mozzarella, and Italian seasoning make a quick, yet scrumptious filling for the low carb stuffed peppers.Serve as a dinner along with a salad.",
+			  "MealType":"Meal X - Side Dish",
+			  "MealName":"RecipeYYY MealName",
+			  "Ingredients":[  
+				 "2 1/2 Tablespoons Extra Virgin Olive Oil",
+				 "2/3 Cup Mushrooms (Diced)",
+				 "2/3 Cup Celery (Diced)",
+				 "2/3 Cup White Onions (Diced)",
+				 "2 Cloves Garlic (Minced)",
+				 "1 1/3 Pounds Lean Ground Beef",
+				 "2/3 Cup Shredded Mozzarella Cheese",
+				 "1 Large Egg (Beaten)",
+				 "1 1/2 Teaspoon Italian Seasoning",
+				 "1/3 Teaspoon Garlic Powder",
+				 "1/4 Teaspoon Salt",
+				 "1/ 4 Teaspoon Ground Black Pepper",
+				 "1 Large Tomato (Diced)",
+				 "1/2 Cup Tomato Sauce",
+				 "4 Bell Peppers (Seeded & Cored)"
+			  ],
+			  "Garnish":[  
+				 "1 Tablespoon Fresh Dill (Minced)"
+			  ],
+			  "Tip":"Kitchen Notes YYY.",
+			  "RecipeID":"RecipeYYY"
+		   }
+		] 
+	 }
+]

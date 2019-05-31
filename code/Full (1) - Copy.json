@@ -1,0 +1,93 @@
+[
+	{  
+		"UserName":"",
+		"TagLine":"",
+
+		"Cover":{  
+		   "Image":"https://recipesavant.blob.core.windows.net/mealplanimages/shutterstock_139217111.jpg",
+		   "PhotoshopPSD":"",
+		   "Meals":{  
+			  "1":[  
+				 "Low Carb Stuffed Peppers",
+				 "Red Grapefruit & Fennel Salad"
+			  ],
+			  "2":[  
+				 "Classic Chicken Parmesan",
+				 "Aromatic Garlic Pasta"
+			  ],
+			  "3":[  
+				 "Curried Peaches & Pork Chops",
+				 "Easy Almond Rice Pilaf",
+				 "Homemade Curry Powder"
+			  ],
+			  "4":[  
+				 "Provencal White Bean Salad",
+				 "Bell Pepper Soup"
+			  ]
+		   },
+		   "Title":"",
+		   "WeekOf":"Month 1 Week 1",
+		   "MealTips":"I MealTips1 MealTips1 MealTips1 MealTips1 MealTips1 MealTips1 MealTips1 MealTips1 MealTips1 MealTips1 MealTips1 MealTips1 MealTips1",
+		   "MainTitle":"I MainTitle1"
+		},
+		"Tips":{  
+		   "Tip":{  
+			  "Make the salad dressing ahead of time":"The salad dressing for the Fennel & Grapefruit salad can be made a few days ahead of time, the longer it stays in the refrigerator, the deeper the flavor will become. I often make it the day before I need to use it. ",
+			  "Shred Your Own Cheese":"Make sure not to shred your cheese until right before you use it for the recipe, it will make sure that the taste and texture is perfect. If you prefer you can buy store bought shredded cheese but contains extra ingredients to prevent clumping. I almost always shred my own cheese with my box grater right when I need it. ",
+			  "Make Your Own Soup Stock":"This meal plan calls for chicken stock, feel free to make a big batch of homemade chicken stock (here is a great recipe - http://bit.ly/2ElJQzK) or purchase a high-quality stock in the box, but do your best to avoid the stuff in the can, it full of extra sodium and preservatives. "
+		   },
+		   "Image":"https://recipesavant.blob.core.windows.net/mealplanimages/shutterstock_140131447.jpg",
+		   "PhotoshopPSD":""
+		},
+		"Recipes":[  
+		   
+		],
+		"ShoppingList":{  
+		   "List":{  
+			  "Produce":[  
+				 "1/2 Pound Mushrooms (Meal 1)",
+				 "1 Small Bunch Celery (Meal 1)",
+				 "2 White Onions (Meals 1,3)",
+				 "3 Red Onions (Meals 1,4)",
+				 "1 Medium Fennel Bulb (Meal 1)",
+				 "1 Medium Bunch of Radishes (Meal 1)",
+				 "5 Ounces Baby Spinach (Meal 1)",
+				 "5 Ounces Baby Arugula (Meal 1)",
+				 "2 Heads of Garlic (All)",
+				 "1 Large Tomato (Meal 1)",
+				 "9 Bell Peppers (Any Color) (Meals 1,4)",
+				 "1 Small Bunch of Fresh Dill (Meal 1)",
+				 "1 Medium Beet (Meal 1)",
+				 "2 Large Pink Grapefruits (Meal 1)",
+				 "1 Large Fresno (Or Other Red) Chili (Meal 2)",
+				 "1 Small Bunch Parsley (Meals 2,4)",
+				 "1 Large Bunch Thyme (Meal 3,4)",
+				 "2 Large Bunch of Green Onions (Meals 3,4)",
+				 "2 Medium Peaches (Meal 3)",
+				 "1 Small Bunch of Cilantro (Meal 3)"
+			  ],
+			  "Meat":[  
+				 "1/2 Pound Mushrooms (Meal 1)",
+				 "1 Small Bunch Celery (Meal 1)",
+				 "2 White Onions (Meals 1,3)",
+				 "3 Red Onions (Meals 1,4)",
+				 "1 Medium Fennel Bulb (Meal 1)",
+				 "1 Medium Bunch of Radishes (Meal 1)",
+				 "5 Ounces Baby Spinach (Meal 1)",
+				 "5 Ounces Baby Arugula (Meal 1)",
+				 "2 Heads of Garlic (All)"
+			  ],
+			  "Dairy":[  
+				 "1/2 Pound Mushrooms (Meal 1)",
+				 "1 Small Bunch Celery (Meal 1)",
+				 "2 White Onions (Meals 1,3)",
+				 "3 Red Onions (Meals 1,4)",
+				 "1 Medium Fennel Bulb (Meal 1)",
+				 "1 Medium Bunch of Radishes (Meal 1)",
+				 "5 Ounces Baby Spinach (Meal 1)",
+				 "5 Ounces Baby Arugula (Meal 1)"
+			  ]
+		   }
+		}
+	 }
+]

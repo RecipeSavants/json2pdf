@@ -1,0 +1,18 @@
+{
+	"OutputASPSD":"True",
+	"OutputASJpeg":"False",
+	"Quality":"2",
+	"SocialType":"Complete",
+	"CoverFile":"Cover.psd",
+	"TipsFile":"Tips.psd",
+	"RecipeFile":"RecipeBook.psd",
+	"ShoppingFile":"ShoppingList.psd",				
+	"InstagramFile":"Instagram.psd",
+	"PinterestFile":"Pinterest.psd",
+	"PTMealsFile":"PTComplete.psd",
+	"PTPassportFile":"PTPassport.psd",
+	"PSDInput":"D:\\psdinput",
+	"RecipeCardsOutput":"D:\\psdoutputtemp",
+	"SocialCardsOutput":"D:\\psdoutputtemp",
+	"ProcessPDF": "False"
+}

@@ -1,0 +1,348 @@
+[
+	{  
+		"UserName":"roberttest",
+		"TagLine":"TagLine1 TagLine1",
+		"Cover":{  
+		   "Image":"https://recipesavant.blob.core.windows.net/mealplanimages/shutterstock_139217111.jpg",
+		   "PhotoshopPSD":"",
+		   "Meals":{  
+			  "1":[  
+				 "Low Carb Stuffed Peppers",
+				 "Red Grapefruit & Fennel Salad"
+			  ],
+			  "2":[  
+				 "Classic Chicken Parmesan",
+				 "Aromatic Garlic Pasta"
+			  ],
+			  "3":[  
+				 "Curried Peaches & Pork Chops",
+				 "Easy Almond Rice Pilaf",
+				 "Homemade Curry Powder"
+			  ],
+			  "4":[  
+				 "Provencal White Bean Salad",
+				 "Bell Pepper Soup"
+			  ]
+		   },
+		   "Title":"I Title1",
+		   "WeekOf":"Week1",
+		   "MealTips":"I MealTips1 MealTips1 MealTips1 MealTips1 MealTips1 MealTips1 MealTips1 MealTips1 MealTips1 MealTips1 MealTips1 MealTips1 MealTips1",
+		   "MainTitle":"I MainTitle1"
+		},
+		"Tips":{  
+		   "Tip":{  
+			  "Make the salad dressing ahead of time":"The salad dressing for the Fennel & Grapefruit salad can be made a few days ahead of time, the longer it stays in the refrigerator, the deeper the flavor will become. I often make it the day before I need to use it. ",
+			  "Shred Your Own Cheese":"Make sure not to shred your cheese until right before you use it for the recipe, it will make sure that the taste and texture is perfect. If you prefer you can buy store bought shredded cheese but contains extra ingredients to prevent clumping. I almost always shred my own cheese with my box grater right when I need it. ",
+			  "Make Your Own Soup Stock":"This meal plan calls for chicken stock, feel free to make a big batch of homemade chicken stock (here is a great recipe - http://bit.ly/2ElJQzK) or purchase a high-quality stock in the box, but do your best to avoid the stuff in the can, it full of extra sodium and preservatives. "
+		   },
+		   "Image":"https://recipesavant.blob.core.windows.net/mealplanimages/shutterstock_140131447.jpg",
+		   "PhotoshopPSD":""
+		},
+		"Recipes":[  
+		   {  
+			  "Steps":[  
+				 "Preheat oven to 375 degrees. In a medium cast-iron skillet, heat oil and saute mushrooms, celery, onions, and garlic for 6 - 8 minutes or until tender.Remove from heat and keep aside.",
+				 "In a medium mixing bowl, combine beef mixture, 1/2 of the mozzarella cheese, egg & seasonings and mix until well combined. In another bowl, combine tomato sauce and diced tomatoes.",
+				 "Carefully stuff each pepper and arrange in a casserole dish. Top with sauce mixture.",
+				 "Cover the casserole dish and bake for 40 minutes. Uncover and sprinkle the surface of the peppers with the remaining mozzarella cheese, and bake for another 10 minutes, or until the cheese has melted."
+			  ],
+			  "Image":"https://recipesavant.blob.core.windows.net/mealplanimages/shutterstock_269101838.jpg",
+			  "PhotoshopPSD":null,
+			  "Description":"In this Italian-inspired stuffed bell pepper recipe, ground beef, mushrooms, tomato sauce, Mozzarella, and Italian seasoning make a quick, yet scrumptious filling for the low carb stuffed peppers.Serve as a dinner along with a salad.",
+			  "MealType":"Meal 1 - Main Dish",
+			  "MealName":"Low Carbed Stuffed Peppers",
+			  "Ingredients":[  
+				 "2 1/2 Tablespoons Extra Virgin Olive Oil",
+				 "2/3 Cup Mushrooms (Diced)",
+				 "2/3 Cup Celery (Diced)",
+				 "2/3 Cup White Onions (Diced)",
+				 "2 Cloves Garlic (Minced)",
+				 "1 1/3 Pounds Lean Ground Beef",
+				 "2/3 Cup Shredded Mozzarella Cheese",
+				 "1 Large Egg (Beaten)",
+				 "1 1/2 Teaspoon Italian Seasoning",
+				 "1/3 Teaspoon Garlic Powder",
+				 "1/4 Teaspoon Salt",
+				 "1/ 4 Teaspoon Ground Black Pepper",
+				 "1 Large Tomato (Diced)",
+				 "1/2 Cup Tomato Sauce",
+				 "4 Bell Peppers (Seeded & Cored)"
+			  ],
+			  "Garnish":[  
+				 "1 Tablespoon Fresh Dill (Minced)"
+			  ],
+			  "Tip":null,
+			  "RecipeID":"RecipeXXX"
+		   },
+		   {  
+			  "Steps":[  
+				 "Preheat oven to 375 degrees. In a medium cast-iron skillet, heat oil and saute mushrooms, celery, onions, and garlic for 6 - 8 minutes or until tender.Remove from heat and keep aside.",
+				 "In a medium mixing bowl, combine beef mixture, 1/2 of the mozzarella cheese, egg & seasonings and mix until well combined. In another bowl, combine tomato sauce and diced tomatoes.",
+				 "Carefully stuff each pepper and arrange in a casserole dish. Top with sauce mixture.",
+				 "Cover the casserole dish and bake for 40 minutes. Uncover and sprinkle the surface of the peppers with the remaining mozzarella cheese, and bake for another 10 minutes, or until the cheese has melted.",
+				 "Steps5.",
+				 "Steps6 Steps6.",
+			  ],
+			  "Image":"https://recipesavant.blob.core.windows.net/mealplanimages/shutterstock_494175898.jpg",
+			  "PhotoshopPSD":null,
+			  "Description":"In this Italian-inspired stuffed bell pepper recipe, ground beef, mushrooms, tomato sauce, Mozzarella, and Italian seasoning make a quick, yet scrumptious filling for the low carb stuffed peppers.Serve as a dinner along with a salad.",
+			  "MealType":"Meal X - Side Dish",
+			  "MealName":"Low Carbed Stuffed Peppers",
+			  "Ingredients":[  
+				 "2 1/2 Tablespoons Extra Virgin Olive Oil",
+				 "2/3 Cup Mushrooms (Diced)",
+				 "2/3 Cup Celery (Diced)",
+				 "2/3 Cup White Onions (Diced)",
+				 "2 Cloves Garlic (Minced)",
+				 "1 1/3 Pounds Lean Ground Beef",
+				 "2/3 Cup Shredded Mozzarella Cheese",
+				 "1 Large Egg (Beaten)",
+				 "1 1/2 Teaspoon Italian Seasoning",
+				 "1/3 Teaspoon Garlic Powder",
+				 "1/4 Teaspoon Salt",
+				 "1/ 4 Teaspoon Ground Black Pepper",
+				 "1 Large Tomato (Diced)",
+				 "1/2 Cup Tomato Sauce",
+				 "4 Bell Peppers (Seeded & Cored)"
+			  ],
+			  "Garnish":[  
+				 "1 Tablespoon Fresh Dill (Minced)"
+			  ],
+			  "Tip":"Kitchen Notes YYY.",
+			  "RecipeID":"RecipeYYY"
+		   }
+		],
+		"ShoppingList":{  
+		   "List":{  
+			  "Produce":[  
+				 "1/2 Pound Mushrooms (Meal 1)",
+				 "1 Small Bunch Celery (Meal 1)",
+				 "2 White Onions (Meals 1,3)",
+				 "3 Red Onions (Meals 1,4)",
+				 "1 Medium Fennel Bulb (Meal 1)",
+				 "1 Medium Bunch of Radishes (Meal 1)",
+				 "5 Ounces Baby Spinach (Meal 1)",
+				 "5 Ounces Baby Arugula (Meal 1)",
+				 "2 Heads of Garlic (All)",
+				 "1 Large Tomato (Meal 1)",
+				 "9 Bell Peppers (Any Color) (Meals 1,4)",
+				 "1 Small Bunch of Fresh Dill (Meal 1)",
+				 "1 Medium Beet (Meal 1)",
+				 "2 Large Pink Grapefruits (Meal 1)",
+				 "1 Large Fresno (Or Other Red) Chili (Meal 2)",
+				 "1 Small Bunch Parsley (Meals 2,4)",
+				 "1 Large Bunch Thyme (Meal 3,4)",
+				 "2 Large Bunch of Green Onions (Meals 3,4)",
+				 "2 Medium Peaches (Meal 3)",
+				 "1 Small Bunch of Cilantro (Meal 3)"
+			  ],
+			  "Meat":[  
+				 "1/2 Pound Mushrooms (Meal 1)",
+				 "1 Small Bunch Celery (Meal 1)",
+				 "2 White Onions (Meals 1,3)",
+				 "3 Red Onions (Meals 1,4)",
+				 "1 Medium Fennel Bulb (Meal 1)",
+				 "1 Medium Bunch of Radishes (Meal 1)",
+				 "5 Ounces Baby Spinach (Meal 1)",
+				 "5 Ounces Baby Arugula (Meal 1)",
+				 "2 Heads of Garlic (All)"
+			  ],
+			  "Dairy":[  
+				 "1/2 Pound Mushrooms (Meal 1)",
+				 "1 Small Bunch Celery (Meal 1)",
+				 "2 White Onions (Meals 1,3)",
+				 "3 Red Onions (Meals 1,4)",
+				 "1 Medium Fennel Bulb (Meal 1)",
+				 "1 Medium Bunch of Radishes (Meal 1)",
+				 "5 Ounces Baby Spinach (Meal 1)",
+				 "5 Ounces Baby Arugula (Meal 1)"
+			  ]
+		   }
+		}
+	 },
+	 	{  
+		"UserName":"",
+		"TagLine":"TagLine2 TagLine2",
+		"Cover":{  
+		   "Image":"https://recipesavant.blob.core.windows.net/mealplanimages/shutterstock_139217111.jpg",
+		   "PhotoshopPSD":"",
+		   "Meals":{  
+			  "1":[  
+				 "Low Carb Stuffed Peppers",
+				 "Red Grapefruit & Fennel Salad",
+				 "Meals1 Meals1 Meals1",
+				 "Meals1 Meals1 Meals1"
+			  ],
+			  "2":[  
+				 "Classic Chicken Parmesan",
+				 "Aromatic Garlic Pasta",
+				 "Meals2 Meals2 Meals2",
+				 "Meals2 Meals2 Meals2"
+			  ],
+			  "3":[  
+				 "Curried Peaches & Pork Chops",
+				 "Easy Almond Rice Pilaf",
+				 "Homemade Curry Powder"
+			  ],
+			  "4":[  
+				 "Provencal White Bean Salad",
+				 "Bell Pepper Soup"
+			  ]
+		   },
+		   "Title":"I Title2",
+		   "WeekOf":"Week2",
+		   "MealTips":"I MealTips2 MealTips2 MealTips2 MealTips2 MealTips2 MealTips2 MealTips2 MealTips2 MealTips2 MealTips2 MealTips2 MealTips2 MealTips I MealTips2 MealTips2 MealTips2 MealTips2 MealTips2 MealTips2 MealTips2 MealTips2 MealTips2 MealTips2 MealTips2 MealTips2 MealTips",
+		   "MainTitle":"I MainTitle2"
+		},
+		"Tips":{  
+		   "Tip":{  
+			  "Make the salad dressing ahead of time":"The salad dressing for the Fennel & Grapefruit salad can be made a few days ahead of time, the longer it stays in the refrigerator, the deeper the flavor will become. I often make it the day before I need to use it. ",
+			  "Shred Your Own Cheese":"Make sure not to shred your cheese until right before you use it for the recipe, it will make sure that the taste and texture is perfect. If you prefer you can buy store bought shredded cheese but contains extra ingredients to prevent clumping. I almost always shred my own cheese with my box grater right when I need it. ",			  
+			  },
+		   "Image":"https://recipesavant.blob.core.windows.net/mealplanimages/shutterstock_140131447.jpg",
+		   "PhotoshopPSD":""
+		},
+		"Recipes":[  
+		   {  
+			  "Steps":[  
+				 "Preheat oven to 375 degrees. In a medium cast-iron skillet, heat oil and saute mushrooms, celery, onions, and garlic for 6 - 8 minutes or until tender.Remove from heat and keep aside.",
+				 "In a medium mixing bowl, combine beef mixture, 1/2 of the mozzarella cheese, egg & seasonings and mix until well combined. In another bowl, combine tomato sauce and diced tomatoes.",
+				 "Carefully stuff each pepper and arrange in a casserole dish. Top with sauce mixture.",
+				 "Cover the casserole dish and bake for 40 minutes. Uncover and sprinkle the surface of the peppers with the remaining mozzarella cheese, and bake for another 10 minutes, or until the cheese has melted."
+			  ],
+			  "Image":"https://recipesavant.blob.core.windows.net/mealplanimages/shutterstock_269101838.jpg",
+			  "PhotoshopPSD":null,
+			  "Description":"In this Italian-inspired stuffed bell pepper recipe, ground beef, mushrooms, tomato sauce, Mozzarella, and Italian seasoning make a quick, yet scrumptious filling for the low carb stuffed peppers.Serve as a dinner along with a salad.",
+			  "MealType":"Meal 1 - Main Dish",
+			  "MealName":"Low Carbed Stuffed Peppers",
+			  "Ingredients":[  
+				 "2 1/2 Tablespoons Extra Virgin Olive Oil",
+				 "2/3 Cup Mushrooms (Diced)",
+				 "2/3 Cup Celery (Diced)",
+				 "2/3 Cup White Onions (Diced)",
+				 "2 Cloves Garlic (Minced)",
+				 "1 1/3 Pounds Lean Ground Beef",
+				 "2/3 Cup Shredded Mozzarella Cheese",
+				 "1 Large Egg (Beaten)",
+				 "1 1/2 Teaspoon Italian Seasoning",
+				 "1/3 Teaspoon Garlic Powder",
+				 "1/4 Teaspoon Salt",
+				 "1/ 4 Teaspoon Ground Black Pepper",
+				 "1 Large Tomato (Diced)",
+				 "1/2 Cup Tomato Sauce",
+				 "4 Bell Peppers (Seeded & Cored)"
+			  ],
+			  "Garnish":[  
+				 "1 Tablespoon Fresh Dill (Minced)"
+			  ],
+			  "Tip":null,
+			  "RecipeID":"RecipeXXX"
+		   },
+		   {  
+			  "Steps":[  
+				 "Preheat oven to 375 degrees. In a medium cast-iron skillet, heat oil and saute mushrooms, celery, onions, and garlic for 6 - 8 minutes or until tender.Remove from heat and keep aside.",
+				 "In a medium mixing bowl, combine beef mixture, 1/2 of the mozzarella cheese, egg & seasonings and mix until well combined. In another bowl, combine tomato sauce and diced tomatoes.",
+				 "Carefully stuff each pepper and arrange in a casserole dish. Top with sauce mixture.",
+				 "Cover the casserole dish and bake for 40 minutes. Uncover and sprinkle the surface of the peppers with the remaining mozzarella cheese, and bake for another 10 minutes, or until the cheese has melted."
+			  ],
+			  "Image":"https://recipesavant.blob.core.windows.net/mealplanimages/shutterstock_494175898.jpg",
+			  "PhotoshopPSD":null,
+			  "Description":"In this Italian-inspired stuffed bell pepper recipe, ground beef, mushrooms, tomato sauce, Mozzarella, and Italian seasoning make a quick, yet scrumptious filling for the low carb stuffed peppers.Serve as a dinner along with a salad.",
+			  "MealType":"Meal X - Side Dish",
+			  "MealName":"Low Carbed Stuffed Peppers",
+			  "Ingredients":[  
+				 "2 1/2 Tablespoons Extra Virgin Olive Oil",
+				 "2/3 Cup Mushrooms (Diced)",
+				 "2/3 Cup Celery (Diced)",
+				 "2/3 Cup White Onions (Diced)",
+				 "2 Cloves Garlic (Minced)",
+				 "1 1/3 Pounds Lean Ground Beef",
+				 "2/3 Cup Shredded Mozzarella Cheese",
+				 "1 Large Egg (Beaten)",
+				 "1 1/2 Teaspoon Italian Seasoning",
+				 "1/3 Teaspoon Garlic Powder",
+				 "1/4 Teaspoon Salt",
+				 "1/ 4 Teaspoon Ground Black Pepper",
+				 "1 Large Tomato (Diced)",
+				 "1/2 Cup Tomato Sauce",
+				 "4 Bell Peppers (Seeded & Cored)"
+			  ],
+			  "Garnish":[  
+				 "1 Tablespoon Fresh Dill (Minced)"
+			  ],
+			  "Tip":"Kitchen Notes YYY.",
+			  "RecipeID":"RecipeYYY"
+		   }
+		],
+		"ShoppingList":{  
+		   "List":{  
+			  "Produce":[  
+				 "1/2 Pound Mushrooms (Meal 1)",
+				 "1 Small Bunch Celery (Meal 1)",
+				 "2 White Onions (Meals 1,3)",
+				 "3 Red Onions (Meals 1,4)",
+				 "1 Medium Fennel Bulb (Meal 1)",
+				 "1 Medium Bunch of Radishes (Meal 1)",
+				 "5 Ounces Baby Spinach (Meal 1)",
+				 "5 Ounces Baby Arugula (Meal 1)",
+				 "2 Heads of Garlic (All)",
+				 "1 Large Tomato (Meal 1)",
+				 "9 Bell Peppers (Any Color) (Meals 1,4)",
+				 "1 Small Bunch of Fresh Dill (Meal 1)",
+				 "1 Medium Beet (Meal 1)",
+				 "2 Large Pink Grapefruits (Meal 1)",
+				 "1 Large Fresno (Or Other Red) Chili (Meal 2)",
+				 "1 Small Bunch Parsley (Meals 2,4)",
+				 "1 Large Bunch Thyme (Meal 3,4)",
+				 "2 Large Bunch of Green Onions (Meals 3,4)",
+				 "2 Medium Peaches (Meal 3)",
+				 "1 Small Bunch of Cilantro (Meal 3)"
+			  ],
+			  "Meat":[  
+				 "1/2 Pound Mushrooms (Meal 1)",
+				 "1 Small Bunch Celery (Meal 1)",
+				 "2 White Onions (Meals 1,3)",
+				 "3 Red Onions (Meals 1,4)",
+				 "1 Medium Fennel Bulb (Meal 1)",
+				 "1 Medium Bunch of Radishes (Meal 1)",
+				 "5 Ounces Baby Spinach (Meal 1)",
+				 "5 Ounces Baby Arugula (Meal 1)",
+				 "2 Heads of Garlic (All)"
+			  ],
+			  "Dairy":[  
+				 "1/2 Pound Mushrooms (Meal 1)",
+				 "1 Small Bunch Celery (Meal 1)",
+				 "2 White Onions (Meals 1,3)",
+				 "3 Red Onions (Meals 1,4)",
+				 "1 Medium Fennel Bulb (Meal 1)",
+				 "1 Medium Bunch of Radishes (Meal 1)",
+				 "5 Ounces Baby Spinach (Meal 1)",
+				 "5 Ounces Baby Arugula (Meal 1)"
+			  ],
+			  "Baking":[  
+				 "Baking1",
+				 "Baking1",
+				 "Baking1",
+				 "Baking1"
+			  ],
+			  "Canned":[  
+				 "Canned1",
+				 "Canned1",
+				 "Canned1"
+			  ],
+			  "Beverages":[  
+				 "Beverages1",
+				 "Beverages1"
+			  ],
+			  "Herbs":[  
+				 "Herbs1",
+				 "Herbs1"
+			  ],
+			  "Pantry":[  
+				 "Pantry1"
+			  ]
+			  
+		   }
+		}
+	 }
+]

@@ -1,0 +1,15 @@
+D:\Source\RecipeCardMngr\CreatePdfLibrary\bin\Debug\CreatePdfLibrary.dll
+D:\Source\RecipeCardMngr\CreatePdfLibrary\bin\Debug\CreatePdfLibrary.pdb
+D:\Source\RecipeCardMngr\CreatePdfLibrary\bin\Debug\itextsharp.dll
+D:\Source\RecipeCardMngr\CreatePdfLibrary\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+D:\Source\RecipeCardMngr\CreatePdfLibrary\bin\Debug\Newtonsoft.Json.dll
+D:\Source\RecipeCardMngr\CreatePdfLibrary\bin\Debug\Microsoft.Data.Edm.dll
+D:\Source\RecipeCardMngr\CreatePdfLibrary\bin\Debug\Microsoft.Data.Services.Client.dll
+D:\Source\RecipeCardMngr\CreatePdfLibrary\bin\Debug\Microsoft.Data.OData.dll
+D:\Source\RecipeCardMngr\CreatePdfLibrary\bin\Debug\itextsharp.xml
+D:\Source\RecipeCardMngr\CreatePdfLibrary\bin\Debug\Newtonsoft.Json.xml
+D:\Source\RecipeCardMngr\CreatePdfLibrary\obj\Debug\CreatePdfLibrary.csprojAssemblyReference.cache
+D:\Source\RecipeCardMngr\CreatePdfLibrary\obj\Debug\CreatePdfLibrary.csproj.CoreCompileInputs.cache
+D:\Source\RecipeCardMngr\CreatePdfLibrary\obj\Debug\CreatePdfLibrary.csproj.CopyComplete
+D:\Source\RecipeCardMngr\CreatePdfLibrary\obj\Debug\CreatePdfLibrary.dll
+D:\Source\RecipeCardMngr\CreatePdfLibrary\obj\Debug\CreatePdfLibrary.pdb

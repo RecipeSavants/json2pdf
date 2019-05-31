@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1FEA3E3F-600E-4D01-91E4-69A22643F368}"
+	ProjectSection(SolutionItems) = preProject
+		cfg.json = cfg.json
+		Create PDF (1) - Copy.json = Create PDF (1) - Copy.json
+		Create PDF (1).json = Create PDF (1).json
+		Full (1) - Copy.json = Full (1) - Copy.json
+		Full (1).json = Full (1).json
+		Passport, Complete, Normal, No.txt = Passport, Complete, Normal, No.txt
+		Recipe (2).json = Recipe (2).json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatePdfLibrary", "..\..\..\Downloads\Pavel2.0\RecipeCardProject (3)\RecipeCardProject\CreatePdfLibrary\CreatePdfLibrary.csproj", "{033CF2A6-4D01-4BBC-A030-1747C62F735A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeCard", "..\..\..\Downloads\Pavel2.0\RecipeCardProject (3)\RecipeCardProject\RecipeCard\RecipeCard.csproj", "{DB6CC9D8-269B-4FFA-945E-5F884F4DCD79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeCardLibrary", "..\..\..\Downloads\Pavel2.0\RecipeCardProject (3)\RecipeCardProject\RecipeCardLibrary\RecipeCardLibrary.csproj", "{8F198ABA-26FE-41F2-8588-56EB83845D95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{033CF2A6-4D01-4BBC-A030-1747C62F735A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{033CF2A6-4D01-4BBC-A030-1747C62F735A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{033CF2A6-4D01-4BBC-A030-1747C62F735A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{033CF2A6-4D01-4BBC-A030-1747C62F735A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB6CC9D8-269B-4FFA-945E-5F884F4DCD79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB6CC9D8-269B-4FFA-945E-5F884F4DCD79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB6CC9D8-269B-4FFA-945E-5F884F4DCD79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB6CC9D8-269B-4FFA-945E-5F884F4DCD79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F198ABA-26FE-41F2-8588-56EB83845D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F198ABA-26FE-41F2-8588-56EB83845D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F198ABA-26FE-41F2-8588-56EB83845D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F198ABA-26FE-41F2-8588-56EB83845D95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49D6A799-BD1F-4280-B224-7F5C1543A43E}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mvcwizardscorp.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\..\\..\\Downloads\\Pavel2.0\\RecipeCardProject\u0020(3)\\RecipeCardProject\\CreatePdfLibrary\\CreatePdfLibrary.csproj
+		SccProjectName1 = CreatePdfLibrary
+		SccLocalPath1 = ..\\..\\..\\Downloads\\Pavel2.0\\RecipeCardProject\u0020(3)\\RecipeCardProject\\CreatePdfLibrary
+		SccProjectUniqueName2 = ..\\..\\..\\Downloads\\Pavel2.0\\RecipeCardProject\u0020(3)\\RecipeCardProject\\RecipeCard\\RecipeCard.csproj
+		SccProjectName2 = RecipeCard
+		SccLocalPath2 = ..\\..\\..\\Downloads\\Pavel2.0\\RecipeCardProject\u0020(3)\\RecipeCardProject\\RecipeCard
+		SccProjectUniqueName3 = ..\\..\\..\\Downloads\\Pavel2.0\\RecipeCardProject\u0020(3)\\RecipeCardProject\\RecipeCardLibrary\\RecipeCardLibrary.csproj
+		SccProjectName3 = RecipeCardLibrary
+		SccLocalPath3 = ..\\..\\..\\Downloads\\Pavel2.0\\RecipeCardProject\u0020(3)\\RecipeCardProject\\RecipeCardLibrary
+	EndGlobalSection
+EndGlobal
