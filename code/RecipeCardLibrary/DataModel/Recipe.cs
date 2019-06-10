@@ -16,6 +16,12 @@ namespace RecipeCardLibrary.DataModel
 
         public string MealName { get; set; }
 
+        public string TotalActiveCookTime { get; set; }
+
+        public string Cusine { get; set; }
+
+        public string Yield { get; set; }
+
         public List<string> Ingredients { get; set; } = new List<string>();
 
         public List<string> Garnish { get; set; } = new List<string>();

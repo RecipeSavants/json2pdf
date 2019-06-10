@@ -137,8 +137,10 @@ namespace RecipeCardLibrary
                         }
                         foreach (Recipe recipe in recipeSavants.Recipes)
                         {
-                            s.Recipes.Add(GenerateRecipe(app, recipe, recipeSavants.UserName, recipeSavants.TagLine, cfg.SocialType.ToString()));
-                            if (cfg.SocialType != SocialType.No)
+                            if (cfg.SocialType != SocialType.SocialNoRecipecardNormal && cfg.SocialType != SocialType.SocialRecipecardComplete)
+                                s.Recipes.Add(GenerateRecipe(app, recipe, recipeSavants.UserName, recipeSavants.TagLine, cfg.SocialType.ToString()));
+
+                            if (cfg.SocialType != SocialType.No && cfg.SocialType != SocialType.PassportNoSocial)
                             {
                                 GeneratePinterest(app, recipe, recipeSavants.UserName, "");
                                 GenerateInstagram(app, recipe, recipeSavants.UserName, "");
@@ -259,7 +261,10 @@ namespace RecipeCardLibrary
                                 Ingredients = recipeService.GetIngredients(),
                                 MealName = recipeService.MealName,
                                 Steps = recipeService.GetSteps(),
-                                Tip = recipeService.Tip
+                                Tip = recipeService.Tip,
+                                TotalActiveCookTime = recipeService.TotalActiveCookTime,
+                                Cusine = recipeService.Cusine,
+                                Yield = recipeService.Yield
                             }
                         }
                     };
@@ -398,118 +403,97 @@ namespace RecipeCardLibrary
 
                 if (recipeSavants.Recipes != null)
                 {
-                    foreach (var recipe in recipeSavants.Recipes)
+                    if (cfg.SocialType != SocialType.SocialNoRecipecardNormal && cfg.SocialType != SocialType.SocialRecipecardComplete)
                     {
-                        if (string.IsNullOrEmpty(recipe.PhotoshopPSD))
+                        foreach (var recipe in recipeSavants.Recipes)
                         {
-                            if (string.IsNullOrWhiteSpace(cfg.RecipeFile))
+                            if (string.IsNullOrEmpty(recipe.PhotoshopPSD))
                             {
-                                LogError("Recipe card {0} file is not specified.", recipe.RecipeID);
-                                return false;
+                                if (string.IsNullOrWhiteSpace(cfg.RecipeFile))
+                                {
+                                    LogError("Recipe card {0} file is not specified.", recipe.RecipeID);
+                                    return false;
+                                }
+                                if (!File.Exists(Path.Combine(cfg.PSDInput, cfg.RecipeFile)))
+                                {
+                                    LogError("Recipe card {0} file doesn't exist ({1}).", recipe.RecipeID, cfg.RecipeFile);
+                                    return false;
+                                }
                             }
-                            if (!File.Exists(Path.Combine(cfg.PSDInput, cfg.RecipeFile)))
+                            else
                             {
-                                LogError("Recipe card {0} file doesn't exist ({1}).", recipe.RecipeID, cfg.RecipeFile);
-                                return false;
-                            }
-                        }
-                        else
-                        {
-                            if (!ExistBlob("psdinput", recipe.PhotoshopPSD))
-                            {
-                                LogError("Recipe {0} PhotoshopPSD file doesn't exist ({1}).", recipe.RecipeID, recipe.PhotoshopPSD);
-                                return false;
+                                if (!ExistBlob("psdinput", recipe.PhotoshopPSD))
+                                {
+                                    LogError("Recipe {0} PhotoshopPSD file doesn't exist ({1}).", recipe.RecipeID, recipe.PhotoshopPSD);
+                                    return false;
+                                }
                             }
                         }
                     }
 
                     #region Instagram
-
-                    if (string.IsNullOrWhiteSpace(cfg.InstagramFile))
+                    if (cfg.SocialType != SocialType.PassportNoSocial)
                     {
-                        LogError("Instagram card file is not specified.");
-                        return false;
-                    }
-                    if (!File.Exists(Path.Combine(cfg.PSDInput, cfg.InstagramFile)))
-                    {
-                        LogError("Instagram card file doesn't exist ({0}).", cfg.InstagramFile);
-                        return false;
+                        if (string.IsNullOrWhiteSpace(cfg.InstagramFile))
+                        {
+                            LogError("Instagram card file is not specified.");
+                            return false;
+                        }
+                        if (!File.Exists(Path.Combine(cfg.PSDInput, cfg.InstagramFile)))
+                        {
+                            LogError("Instagram card file doesn't exist ({0}).", cfg.InstagramFile);
+                            return false;
+                        }
                     }
 
                     #endregion
 
                     #region Pinterest
-                    switch(cfg.SocialType)
+                    if (cfg.SocialType == SocialType.Normal || cfg.SocialType == SocialType.SocialNoRecipecardNormal || cfg.SocialType == SocialType.SocialRecipecardComplete)
                     {
-                        case SocialType.Normal:
-                            if (string.IsNullOrWhiteSpace(cfg.PinterestFile))
-                            {
-                                LogError("Pinterest card file is not specified.");
-                                return false;
-                            }
-                            if (!File.Exists(Path.Combine(cfg.PSDInput, cfg.PinterestFile)))
-                            {
-                                LogError("Pinterest card file doesn't exist ({0}).", cfg.PinterestFile);
-                                return false;
-                            }
-                            break;
-
-                        case SocialType.Passport:
-                            if (string.IsNullOrWhiteSpace(cfg.PTPassportFile))
-                            {
-                                LogError("Pinterest card file is not specified.");
-                                return false;
-                            }
-                            if (!File.Exists(Path.Combine(cfg.PSDInput, cfg.PTPassportFile)))
-                            {
-                                LogError("Pinterest card file doesn't exist ({0}).", cfg.PTPassportFile);
-                                return false;
-                            }
-                            break;
-
-                        case SocialType.Complete:
-                            if (string.IsNullOrWhiteSpace(cfg.PTMealsFile))
-                            {
-                                LogError("Pinterest card file is not specified.");
-                                return false;
-                            }
-                            if (!File.Exists(Path.Combine(cfg.PSDInput, cfg.PTMealsFile)))
-                            {
-                                LogError("Pinterest card file doesn't exist ({0}).", cfg.PTMealsFile);
-                                return false;
-                            }
-                            break;
+                        if (string.IsNullOrWhiteSpace(cfg.PinterestFile))
+                        {
+                            LogError("Pinterest card file is not specified.");
+                            return false;
+                        }
+                        if (!File.Exists(Path.Combine(cfg.PSDInput, cfg.PinterestFile)))
+                        {
+                            LogError("Pinterest card file doesn't exist ({0}).", cfg.PinterestFile);
+                            return false;
+                        }
                     }
-
-
                     #endregion
 
                     #region CompleteMeal
-
-                    if (string.IsNullOrWhiteSpace(cfg.PTMealsFile))
+                    if (cfg.SocialType == SocialType.Complete || cfg.SocialType == SocialType.SocialRecipecardComplete)
                     {
-                        LogError("CompleteMeal card file is not specified.");
-                        return false;
-                    }
-                    if (!File.Exists(Path.Combine(cfg.PSDInput, cfg.PTMealsFile)))
-                    {
-                        LogError("CompleteMeal card file doesn't exist ({0}).", cfg.PTMealsFile);
-                        return false;
+                        if (string.IsNullOrWhiteSpace(cfg.PTMealsFile))
+                        {
+                            LogError("CompleteMeal card file is not specified.");
+                            return false;
+                        }
+                        if (!File.Exists(Path.Combine(cfg.PSDInput, cfg.PTMealsFile)))
+                        {
+                            LogError("CompleteMeal card file doesn't exist ({0}).", cfg.PTMealsFile);
+                            return false;
+                        }
                     }
 
                     #endregion
 
                     #region PassportMeal
-
-                    if (string.IsNullOrWhiteSpace(cfg.PTPassportFile))
+                    if (cfg.SocialType == SocialType.Passport || cfg.SocialType == SocialType.SocialRecipecardComplete)
                     {
-                        LogError("PassportMeal card file is not specified.");
-                        return false;
-                    }
-                    if (!File.Exists(Path.Combine(cfg.PSDInput, cfg.PTPassportFile)))
-                    {
-                        LogError("PassportMeal card file doesn't exist ({0}).", cfg.PTPassportFile);
-                        return false;
+                        if (string.IsNullOrWhiteSpace(cfg.PTPassportFile))
+                        {
+                            LogError("PassportMeal card file is not specified.");
+                            return false;
+                        }
+                        if (!File.Exists(Path.Combine(cfg.PSDInput, cfg.PTPassportFile)))
+                        {
+                            LogError("PassportMeal card file doesn't exist ({0}).", cfg.PTPassportFile);
+                            return false;
+                        }
                     }
 
                     #endregion
@@ -670,7 +654,7 @@ namespace RecipeCardLibrary
             for (int i = 1; i < 5; i++)
             {
                 string mealName = string.Empty;
-                if (cfg.SocialType == SocialType.Complete && i == 1)
+                if ((cfg.SocialType == SocialType.Complete || cfg.SocialType == SocialType.SocialRecipecardComplete) && i == 1)
                 {
                     mealName = "Meal Highlights";
                 }
@@ -943,6 +927,21 @@ namespace RecipeCardLibrary
                         var mealNameLayer = headerLayerSet.ArtLayers.Cast<ps.ArtLayer>().FirstOrDefault(l => l.Name.StartsWith("MealName"));
                         UpdateRecipeHeader(mealNameLayer, recipe.MealName);
                     }
+                    if (!string.IsNullOrEmpty(recipe.TotalActiveCookTime))
+                    {
+                        var mealNameLayer = headerLayerSet.ArtLayers.Cast<ps.ArtLayer>().FirstOrDefault(l => l.Name.StartsWith("TotalActiveCookTime"));
+                        UpdateRecipeHeader(mealNameLayer, recipe.TotalActiveCookTime);
+                    }
+                    if (!string.IsNullOrEmpty(recipe.Cusine))
+                    {
+                        var mealNameLayer = headerLayerSet.ArtLayers.Cast<ps.ArtLayer>().FirstOrDefault(l => l.Name.StartsWith("Cusine"));
+                        UpdateRecipeHeader(mealNameLayer, recipe.Cusine);
+                    }
+                    if (!string.IsNullOrEmpty(recipe.Yield))
+                    {
+                        var mealNameLayer = headerLayerSet.ArtLayers.Cast<ps.ArtLayer>().FirstOrDefault(l => l.Name.StartsWith("Yield"));
+                        UpdateRecipeHeader(mealNameLayer, recipe.Yield);
+                    }
                     if (!string.IsNullOrEmpty(recipe.Image))
                     {
                         recipe.Image = UpdateImage(recipe.Image, "Recipe", doc);
@@ -1171,7 +1170,9 @@ namespace RecipeCardLibrary
                 switch(cfg.SocialType)
                 {
                     case SocialType.Normal:
-                        type = "Normal";
+                    case SocialType.SocialNoRecipecardNormal:
+                    case SocialType.SocialRecipecardComplete:
+                        type = cfg.SocialType.ToString();
                         pinterestFile = Path.Combine(cfg.PSDInput, cfg.PinterestFile);
                         break;
 
@@ -1186,6 +1187,12 @@ namespace RecipeCardLibrary
                         break;
                 }
                 app.Load(pinterestFile);
+
+                if(cfg.SocialType == SocialType.SocialRecipecardComplete)
+                {
+                    app.Load(Path.Combine(cfg.PSDInput, cfg.PTPassportFile));
+                    app.Load(Path.Combine(cfg.PSDInput, cfg.PTMealsFile));
+                }
             }
             else
             {
@@ -1252,6 +1259,7 @@ namespace RecipeCardLibrary
             var title2Element = doc.ArtLayers.Cast<ps.ArtLayer>().FirstOrDefault(l => l.Name == "Title2");
             var rsOrangeElement = doc.ArtLayers.Cast<ps.ArtLayer>().FirstOrDefault(l => l.Name == "RSOrange");
             title1Element.TextItem.Contents = recipe.MealName;
+            
             double widthTitle1 = title1Element.Bounds[2] - title1Element.Bounds[0];
             if (widthTitle1 < (doc.Width - 100)) // indent left 50px and indent right 50px
             {
@@ -1731,6 +1739,7 @@ namespace RecipeCardLibrary
                     break;
 
                 case SocialType.Passport:
+                case SocialType.PassportNoSocial:
                     tagLine = "Passport Meal Plans | All Rights Reserved | RecipeSavants.com";
                     break;
 

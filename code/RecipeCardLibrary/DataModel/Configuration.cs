@@ -8,6 +8,9 @@ namespace RecipeCardLibrary.DataModel
         Passport,
         Complete,
         Normal,
+        PassportNoSocial,
+        SocialNoRecipecardNormal,
+        SocialRecipecardComplete,
         No
     }
 

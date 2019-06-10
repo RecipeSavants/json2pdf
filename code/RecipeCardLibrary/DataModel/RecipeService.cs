@@ -29,6 +29,11 @@ namespace RecipeCardLibrary.DataModel
         [JsonProperty("prepNotes")]
         public string Tip { get; set; }
 
+        public string TotalActiveCookTime { get; set; }
+
+        public string Cusine { get; set; }
+
+        public string Yield { get; set; }
 
         public string MealType { get; set; }        
 

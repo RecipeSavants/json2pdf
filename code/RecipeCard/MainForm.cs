@@ -27,6 +27,7 @@ namespace RecipeCard
         private void MainForm_Load(object sender, EventArgs e)
         {
             this.Focus();
+            txtCfg.Text = Path.Combine(Directory.GetParent(Path.GetDirectoryName(Application.ExecutablePath)).Parent.Parent.FullName, "cfg.json"); ;
         }
 
         private void btnStart_Click(object sender, EventArgs e)
