@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Sg8ffjugEbn5rz7UZ7/rVIvXCsbTEDJ1zzy9tOOKeww=</dsig:DigestValue>
+        <dsig:DigestValue>PaGWsNfNsLkmHqDHexgFEaoJy9RlWNZt8QjMOQiPRSg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -134,19 +134,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>EFKmTd+dxvzpq6/JnBIBGOetG5Rv7TZzCrOyCFATvvo=</dsig:DigestValue>
+        <dsig:DigestValue>w3NTQhPApUmDkDtUo5zV9yXom4UptjSDz9UUgTDck24=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RecipeCardLibrary.dll" size="83968">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RecipeCardLibrary.dll" size="85504">
       <assemblyIdentity name="RecipeCardLibrary" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>vkPsp7PbwCLLY2HqpAUD6PEYTz2d6B+ZzvmPQZH3YbU=</dsig:DigestValue>
+        <dsig:DigestValue>dvmalaoCWIW/L6ufg1MGkq40vbx/chLOpxPkZdZEgH4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
