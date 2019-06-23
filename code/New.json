@@ -221,7 +221,7 @@
 			  "Description":"In this Italian-inspired stuffed bell pepper recipe, ground beef, mushrooms, tomato sauce, Mozzarella, and Italian seasoning make a quick, yet scrumptious filling for the low carb stuffed peppers.Serve as a dinner along with a salad.",
 			  "MealType":"Meal 1 - Main Dish",
 			  "MealName":"Low Carbed Stuffed Peppers",
-			   "TotalActiveCookTime":"24",
+			   "TotalActiveCookTime":"25",
 			  "Cusine":"American",
 			  "Yield":"6",
 			  "Ingredients":[  
@@ -245,7 +245,7 @@
 				 "1 Tablespoon Fresh Dill (Minced)"
 			  ],
 			  "Tip":null,
-			  "RecipeID":"RecipeXXX"
+			  "RecipeID":"RecipeXXXX"
 		   },
 		   {  
 			  "Steps":[  
@@ -259,6 +259,9 @@
 			  "Description":"In this Italian-inspired stuffed bell pepper recipe, ground beef, mushrooms, tomato sauce, Mozzarella, and Italian seasoning make a quick, yet scrumptious filling for the low carb stuffed peppers.Serve as a dinner along with a salad.",
 			  "MealType":"Meal X - Side Dish",
 			  "MealName":"Low Carbed Stuffed Peppers",
+			   "TotalActiveCookTime":"51",
+			  "Cusine":"American",
+			  "Yield":"3",
 			  "Ingredients":[  
 				 "2 1/2 Tablespoons Extra Virgin Olive Oil",
 				 "2/3 Cup Mushrooms (Diced)",
@@ -280,7 +283,7 @@
 				 "1 Tablespoon Fresh Dill (Minced)"
 			  ],
 			  "Tip":"Kitchen Notes YYY.",
-			  "RecipeID":"RecipeYYY"
+			  "RecipeID":"RecipeYYYY"
 		   }
 		],
 		"ShoppingList":{  
