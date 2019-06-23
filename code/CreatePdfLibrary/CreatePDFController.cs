@@ -71,7 +71,7 @@ namespace CreatePdfLibrary
 
         #endregion //Log
 
-        public void Run(string json)
+        public void Run(string json, string outputFolder = null)
         {
             try
             {
@@ -92,7 +92,7 @@ namespace CreatePdfLibrary
                     string localFileName = string.Empty;
                     do
                     {
-                        localFileName = Path.Combine(Path.GetTempPath(), string.Format("{0}-{1}", Guid.NewGuid(), filePdf));
+                        localFileName = Path.Combine(string.IsNullOrEmpty(outputFolder) ? Path.GetTempPath() : outputFolder, string.Format("{0}-{1}", Guid.NewGuid(), filePdf));
                     }
                     while (File.Exists(localFileName));
 
@@ -100,26 +100,36 @@ namespace CreatePdfLibrary
                     {
                         Document doc = null;
                         Image imgCover = ReadImage(pdf.Cover, "Cover", pdf.Type);
-                        Rectangle pagesize = new Rectangle(imgCover.ScaledWidth, imgCover.ScaledHeight);
-                        doc = new Document(pagesize);
-                        PdfWriter writer = PdfWriter.GetInstance(doc, fs);
-                        doc.Open();
-                        doc.Add(imgCover);
+                        if (imgCover != null)
+                        {
+                            Rectangle pagesize = new Rectangle(imgCover.ScaledWidth, imgCover.ScaledHeight);
+                            doc = new Document(pagesize);
+                            PdfWriter writer = PdfWriter.GetInstance(doc, fs);
+                            doc.Open();
+                            doc.Add(imgCover);
+                        }
 
                         Image imgTips = ReadImage(pdf.Tips, "Tips", pdf.Type);
-                        doc.NewPage();
-                        doc.Add(imgTips);
+                        if (imgTips != null)
+                        {
+                            doc.NewPage();
+                            doc.Add(imgTips);
+                        }
 
                         foreach (string recipe in pdf.Recipes)
                         {
                             Image imgRecipe = ReadImageRecipe(recipe, pdf.Type);
+                            if (imgRecipe == null) continue;
                             doc.NewPage();
                             doc.Add(imgRecipe);
                         }
 
                         Image imgShoppintList = ReadImage(pdf.ShoppingList, "ShoppingList", pdf.Type);
-                        doc.NewPage();
-                        doc.Add(imgShoppintList);
+                        if (imgShoppintList != null)
+                        {
+                            doc.NewPage();
+                            doc.Add(imgShoppintList);
+                        }
 
                         doc.Close();
                     }
@@ -282,7 +292,7 @@ namespace CreatePdfLibrary
                 blob.UploadFromFile(localFileName, FileMode.OpenOrCreate);
                 try
                 {
-                    File.Delete(localFileName);
+                    //File.Delete(localFileName);
                 }
                 catch(Exception ex)
                 {
