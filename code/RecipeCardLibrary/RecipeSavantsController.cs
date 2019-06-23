@@ -163,7 +163,7 @@ namespace RecipeCardLibrary
                 if (cfg.ProcessPDF)
                 {
                     CreatePDFController pdf = new CreatePDFController();
-                    pdf.Run(JsonConvert.SerializeObject(ss), cfgDefault.RecipeCardsOutput);
+                    pdf.Run(JsonConvert.SerializeObject(ss), cfg.RecipeCardsOutput);
                 }
             }
             catch (Exception ex)
@@ -865,7 +865,7 @@ namespace RecipeCardLibrary
                 fileName = $"{type}-{recipe.RecipeID}";
             }
 
-            //if(!ExistBlob("recipecards", $"{fileName}-Page1.jpg"))
+           // if(!ExistBlob("recipecards", $"{fileName}-Page1.jpg"))
             {
                 bool photoshopPSD = !string.IsNullOrEmpty(recipe.PhotoshopPSD);
                 string psdFile = string.Empty;
@@ -1830,7 +1830,7 @@ namespace RecipeCardLibrary
                 string ext = Path.GetExtension(fileName);
                 do
                 {
-                    localFileName = Path.Combine(@"E:\psdoutputtemp\", string.Format("{0}{1}", Guid.NewGuid(), ext));
+                    localFileName = Path.Combine(cfg.RecipeCardsOutput, string.Format("{0}{1}", Guid.NewGuid(), ext));
                 }
                 while (File.Exists(localFileName));
 
