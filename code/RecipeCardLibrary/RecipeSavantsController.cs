@@ -865,7 +865,7 @@ namespace RecipeCardLibrary
                 fileName = $"{type}-{recipe.RecipeID}";
             }
 
-            if(!ExistBlob("recipecards", $"{fileName}-Page1.jpg"))
+            //if(!ExistBlob("recipecards", $"{fileName}-Page1.jpg"))
             {
                 bool photoshopPSD = !string.IsNullOrEmpty(recipe.PhotoshopPSD);
                 string psdFile = string.Empty;
