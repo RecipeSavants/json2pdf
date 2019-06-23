@@ -2,7 +2,7 @@
 	"OutputASPSD":"True",
 	"OutputASJpeg":"True",
 	"Quality":"2",
-	"SocialType":"Complete",
+	"SocialType":"Normal",
 	"CoverFile":"Cover.psd",
 	"TipsFile":"Tips.psd",
 	"RecipeFile":"RecipeBook.psd",
