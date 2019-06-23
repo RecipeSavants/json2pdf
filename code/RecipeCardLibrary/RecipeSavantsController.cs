@@ -163,7 +163,7 @@ namespace RecipeCardLibrary
                 if (cfg.ProcessPDF)
                 {
                     CreatePDFController pdf = new CreatePDFController();
-                    pdf.Run(JsonConvert.SerializeObject(ss));
+                    pdf.Run(JsonConvert.SerializeObject(ss), cfgDefault.RecipeCardsOutput);
                 }
             }
             catch (Exception ex)
@@ -666,6 +666,7 @@ namespace RecipeCardLibrary
                 if (i <= cover.Meals.Count)
                 {
                     var mealText = mealsLayer.ArtLayers.Cast<ps.ArtLayer>().FirstOrDefault(l => l.Name == mealName);
+                    if(mealText == null) continue;
                     if (i == 1)
                     {
                         posXHeader = previousElement.TextItem.Position[0];
@@ -930,7 +931,7 @@ namespace RecipeCardLibrary
                     if (!string.IsNullOrEmpty(recipe.TotalActiveCookTime))
                     {
                         var mealNameLayer = headerLayerSet.ArtLayers.Cast<ps.ArtLayer>().FirstOrDefault(l => l.Name.StartsWith("TotalActiveCookTime"));
-                        UpdateRecipeHeader(mealNameLayer, recipe.TotalActiveCookTime);
+                        UpdateRecipeHeader(mealNameLayer, CookTimeToString(recipe.TotalActiveCookTime));
                     }
                     if (!string.IsNullOrEmpty(recipe.Cusine))
                     {
@@ -1829,7 +1830,7 @@ namespace RecipeCardLibrary
                 string ext = Path.GetExtension(fileName);
                 do
                 {
-                    localFileName = Path.Combine(@"d:\psdoutput\", string.Format("{0}{1}", Guid.NewGuid(), ext));
+                    localFileName = Path.Combine(@"E:\psdoutputtemp\", string.Format("{0}{1}", Guid.NewGuid(), ext));
                 }
                 while (File.Exists(localFileName));
 
@@ -1877,6 +1878,40 @@ namespace RecipeCardLibrary
         {
             bool exist = blobClient.GetContainerReference(blobStore).GetBlockBlobReference(fileName).Exists();
             return exist;
+        }
+
+        private string CookTimeToString(string minutes)
+        {
+            if (string.IsNullOrEmpty(minutes)) return null;
+
+            TimeSpan ts = TimeSpan.FromMinutes(Convert.ToDouble(minutes));
+            if (ts.Hours == 0)
+            {
+                if (ts.Minutes == 0)
+                    return null;
+                else if (ts.Minutes == 1)
+                    return $"1 Min";
+                else
+                    return $"{ts.Minutes} Mins";
+            }
+            else if (ts.Hours == 1)
+            {
+                if (ts.Minutes == 0)
+                    return $"1 Hour";
+                else if (ts.Minutes == 1)
+                    return $"1 Hour 1 Min";
+                else 
+                    return $"1 Hour {ts.Minutes} Mins";
+            }
+            else
+            {
+                if (ts.Minutes == 0)
+                    return $"1 Hours";
+                else if (ts.Minutes == 1)
+                    return $"1 Hours 1 Min";
+                else
+                    return $"1 Hours {ts.Minutes} Mins";
+            }
         }
     }
 }
