@@ -221,14 +221,14 @@ namespace CreatePdfLibrary
             if (!string.IsNullOrEmpty(card))
             {
                 string nameCover = string.Empty;
-                if (user != "General")
-                {
-                    nameCover = string.Format("{0}-{1}.jpg", user, card);
-                }
-                else
-                {
+                //if (user != "General")
+                //{
+                //    nameCover = string.Format("{0}-{1}.jpg", user, card);
+                //}
+                //else
+                //{
                     nameCover = string.Format("{0}.jpg", card);
-                }
+                //}
                 string fileCover = AzureDownloadToFile(nameCover, "recipecards"); ;
                 try
                 {
