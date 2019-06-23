@@ -28,3 +28,14 @@ D:\gitsource\json2pdf\code\CreatePdfLibrary\obj\Debug\CreatePdfLibrary.csproj.Co
 D:\gitsource\json2pdf\code\CreatePdfLibrary\obj\Debug\CreatePdfLibrary.csproj.CopyComplete
 D:\gitsource\json2pdf\code\CreatePdfLibrary\obj\Debug\CreatePdfLibrary.dll
 D:\gitsource\json2pdf\code\CreatePdfLibrary\obj\Debug\CreatePdfLibrary.pdb
+C:\Users\Puneet\Desktop\UpWork\json2pdf\code\CreatePdfLibrary\bin\Debug\CreatePdfLibrary.dll
+C:\Users\Puneet\Desktop\UpWork\json2pdf\code\CreatePdfLibrary\bin\Debug\CreatePdfLibrary.pdb
+C:\Users\Puneet\Desktop\UpWork\json2pdf\code\CreatePdfLibrary\bin\Debug\itextsharp.dll
+C:\Users\Puneet\Desktop\UpWork\json2pdf\code\CreatePdfLibrary\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Puneet\Desktop\UpWork\json2pdf\code\CreatePdfLibrary\bin\Debug\itextsharp.xml
+C:\Users\Puneet\Desktop\UpWork\json2pdf\code\CreatePdfLibrary\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Puneet\Desktop\UpWork\json2pdf\code\CreatePdfLibrary\obj\Debug\CreatePdfLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Puneet\Desktop\UpWork\json2pdf\code\CreatePdfLibrary\obj\Debug\CreatePdfLibrary.csproj.CopyComplete
+C:\Users\Puneet\Desktop\UpWork\json2pdf\code\CreatePdfLibrary\obj\Debug\CreatePdfLibrary.dll
+C:\Users\Puneet\Desktop\UpWork\json2pdf\code\CreatePdfLibrary\obj\Debug\CreatePdfLibrary.pdb
+C:\Users\Puneet\Desktop\UpWork\json2pdf\code\CreatePdfLibrary\obj\Debug\CreatePdfLibrary.csprojAssemblyReference.cache

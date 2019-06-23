@@ -1,6 +1,6 @@
 {
 	"OutputASPSD":"True",
-	"OutputASJpeg":"False",
+	"OutputASJpeg":"True",
 	"Quality":"2",
 	"SocialType":"Complete",
 	"CoverFile":"Cover.psd",
@@ -11,8 +11,8 @@
 	"PinterestFile":"Pinterest.psd",
 	"PTMealsFile":"PTComplete.psd",
 	"PTPassportFile":"PTPassport.psd",
-	"PSDInput":"D:\\psdinput",
-	"RecipeCardsOutput":"D:\\psdoutputtemp",
-	"SocialCardsOutput":"D:\\psdoutputtemp",
-	"ProcessPDF": "False"
+	"PSDInput":"E:\\psdinput",
+	"RecipeCardsOutput":"E:\\psdoutputtemp",
+	"SocialCardsOutput":"E:\\psdoutputtemp",
+	"ProcessPDF": "True"
 }

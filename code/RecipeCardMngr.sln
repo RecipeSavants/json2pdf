@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28922.388
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1FEA3E3F-600E-4D01-91E4-69A22643F368}"
 	ProjectSection(SolutionItems) = preProject
@@ -10,6 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Create PDF (1).json = Create PDF (1).json
 		Full (1) - Copy.json = Full (1) - Copy.json
 		Full (1).json = Full (1).json
+		New.json = New.json
 		Passport, Complete, Normal, No.txt = Passport, Complete, Normal, No.txt
 		Recipe (2).json = Recipe (2).json
 	EndProjectSection
