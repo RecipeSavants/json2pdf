@@ -1892,25 +1892,16 @@ namespace RecipeCardLibrary
                 else if (ts.Minutes == 1)
                     return $"1 Min";
                 else
-                    return $"{ts.Minutes} Mins";
+                    return $"{ts.Minutes} Minutes";
             }
-            else if (ts.Hours == 1)
+            else 
             {
                 if (ts.Minutes == 0)
-                    return $"1 Hour";
+                    return $"{ts.Hours} Hours";
                 else if (ts.Minutes == 1)
-                    return $"1 Hour 1 Min";
+                    return $"{ts.Hours} Hours 1 Minutes";
                 else 
-                    return $"1 Hour {ts.Minutes} Mins";
-            }
-            else
-            {
-                if (ts.Minutes == 0)
-                    return $"1 Hours";
-                else if (ts.Minutes == 1)
-                    return $"1 Hours 1 Min";
-                else
-                    return $"1 Hours {ts.Minutes} Mins";
+                    return $"{ts.Hours} Hour {ts.Minutes} Minutes";
             }
         }
     }

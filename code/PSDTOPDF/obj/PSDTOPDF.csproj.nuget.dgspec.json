@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\gitsource\\json2pdf\\code\\PSDTOPDF\\PSDTOPDF.csproj": {}
+  },
+  "projects": {
+    "D:\\gitsource\\json2pdf\\code\\PSDTOPDF\\PSDTOPDF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\gitsource\\json2pdf\\code\\PSDTOPDF\\PSDTOPDF.csproj",
+        "projectName": "PSDTOPDF",
+        "projectPath": "D:\\gitsource\\json2pdf\\code\\PSDTOPDF\\PSDTOPDF.csproj",
+        "packagesPath": "C:\\Users\\chica\\.nuget\\packages\\",
+        "outputPath": "D:\\gitsource\\json2pdf\\code\\PSDTOPDF\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chica\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/recipesavants/auth/4ac5db13-a216-4272-92b6-9bb46917f9b4/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Microsoft.Azure.KeyVault.Core": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.Azure.WebJobs": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "Microsoft.Azure.WebJobs.Core": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "Microsoft.Data.Edm": {
+              "target": "Package",
+              "version": "[5.8.3, )"
+            },
+            "Microsoft.Data.OData": {
+              "target": "Package",
+              "version": "[5.8.3, )"
+            },
+            "Microsoft.Data.Services.Client": {
+              "target": "Package",
+              "version": "[5.8.3, )"
+            },
+            "Microsoft.WindowsAzure.ConfigurationManager": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "System.Spatial": {
+              "target": "Package",
+              "version": "[5.8.3, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
